@@ -1,7 +1,7 @@
 # Assembler.hack
 Assembler.hack is a 16-bit machine language assembler for the 16-bit Hack Assembly Language.
 This was done as part of building a complete 16-bit computer from the grounds up through the book,
-and MOOC, Elementes of Computing Systems, which is informally known as nand2tetris. Hack is also the name of the computer.
+and MOOC, Elementes of Computing Systems, which is informally known as nand2tetris https://www.nand2tetris.org/. Hack is also the name of the computer.
 
 # Description
 The Assembling process is implemented in two passes. The first pass scans the whole program, registering the labels only in the Symbol Table. The second pass scans the whole program again, registering all variables in the Symbol Table, substituting the symbols with their respective memory and/or instruction addresses from the Symbol Table, generating binary machine code and then writing the assembled machine code to the new .hack text file.
