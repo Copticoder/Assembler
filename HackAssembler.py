@@ -46,7 +46,7 @@ class HackAssembler:
 
     def secondPasser(self):
         """
-        Second compilation pass: Generate hack machine code and write results to output file.
+        Second compilation pass: get variables to the symbol table and then Generate the hack machine code for each instruction.
         """
 
         self.parser.counter=-1
