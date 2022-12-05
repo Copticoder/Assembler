@@ -10,4 +10,4 @@ Source code is organized into several components, the decisions for their names,
 
 1. **Assembler.py**: Main module. Implements the two passes and glues the other components together.
 2. **Parser.py**: Simple Parser. Parses the instructions by looking ahead 1 character to determine their types and structures.
-3. **Code.py**: Generates binary machine code for instructions. For C-Instructions, it generates machine code for its constituting parts and then merges them back altogether.
+3. **Code.py**: Generates binary machine code for instructions. For C-Instructions, it generates machine code for its constituting parts.
