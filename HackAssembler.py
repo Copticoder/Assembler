@@ -9,7 +9,7 @@ class HackAssembler:
         symbols in the symbol table. The second pass scans the whole program again substituting the symbols with their
         respective addresses in the symbol table, in addition to generating binary machine code and writing the resulting
         assembled machine code to a new file.
-        Usage: python Assembler.py Program.asm
+        Usage: python HackAssembler.py Program.asm
         """
 
         self.current_addr=16
